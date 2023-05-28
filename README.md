@@ -3,13 +3,15 @@
 ## AIM:
 To write a python program to find the distance two 2 points
 ## ALGORITHM:
-### Step 1: 
-### Step 2: 
-### Step 3: 
+### Step 1: Assume the keywords for the program
+### Step 2: Assign the values of first variable
+### Step 3: Substitute the values in the distance formula
+
 Substitute the values in the distance formula  ![formula](/formula.JPG)
-### Step 4: 
-### Step 5: 
+### Step 4: Assign the values of second variable
+### Step 5: Print the distance d
 ### PROGRAM:
+```
 #Program to find the distance between two points.
 #Developed by:ARHAM S 
 #RegisterNumber:212222110005
@@ -23,6 +25,7 @@ def distance_between_points(x1,y1,x2,y2):
 if __name__=="__main__":
      distance = distance_between_points(10,6,4,2)
      print("{:.2f}".format(distance))
+```
 
 
 
